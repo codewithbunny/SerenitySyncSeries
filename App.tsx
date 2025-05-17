@@ -78,10 +78,19 @@ function App(): React.JSX.Element {
         barStyle={isDarkMode ? 'light-content' : 'dark-content'}
         backgroundColor={backgroundStyle.backgroundColor}
       />
-      <ScrollView
-        style={backgroundStyle}>
+      <ScrollView style={backgroundStyle}>
         <View style={{paddingRight: safePadding}}>
-          <Header/>
+          <Header />
+          <Text
+            style={{
+              textAlign: 'right',
+              marginBottom: 20,
+              fontSize: 18,
+              paddingRight: '3%',
+              fontWeight: 'bold',
+            }}>
+            Sereis by SerenitySync
+          </Text>
         </View>
         <View
           style={{
